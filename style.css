@@ -1,0 +1,179 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.header{
+    background-color: black;
+    height: 7vh;
+    display:flex ;
+    position: sticky;
+    justify-content: space-evenly;
+
+}
+ .logo{
+    color: aliceblue;
+    font-size: 2rem;
+}
+.header .navbar{
+    margin-left: 300px;
+}
+.header .navbar a{
+ color: aliceblue;
+ font-size: 1.8rem;
+ padding: 8px;
+
+}
+.header .navbar a:hover{
+    color: green;
+}
+.main{
+    background-color: deeppink;
+    height: 100vh;
+    width: 100vw;
+    /* background-image: url("C:\Users\asus\Desktop\super\WhatsApp Image 2022-11-25 at 9.11.24 PM (4).jpeg"); */
+    background-size: cover ;
+    display: flex;
+    padding: 50px;
+}
+.main .photo{
+    background-color: white;
+    height: 75vh;
+    width: 25vw;
+    margin-right: 30px;
+    padding: 80px;
+
+}
+.main .phone img{
+    border-top: 12px solid white;
+    border: 4px solid white;
+    border-radius: 10px;
+    height: 70vh;
+    width: 20vw;
+
+}
+.main .line{
+    padding: 40px;
+    align-self: center;
+}
+.main .line h1{
+    font-size: 6rem;
+    color: white;
+}
+
+.btn {
+    border: 0px solid white;
+    padding: 9px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.why .spo h1{
+    display: flex;
+    font-size: 3rem;
+    align-items: center;
+    /* align-items: center; */
+    justify-content: space-around;
+}
+.why{
+    width: 100vw;
+    height: 70vh;
+}
+.why .sec{
+    
+    display: grid;
+    background-color: aliceblue;
+    justify-content: space-evenly;
+    grid-template-columns: repeat(4,1fr);
+    padding: 10px;
+    margin: 20px;
+}
+.why .box{
+    height: 10vh;
+    width: 13vw;
+
+}
+.free{
+    color: aliceblue;
+    height: 40vh;
+    width: 100vw;
+    background-color: darkviolet;
+    font-size: 2.3rem;
+    align-items: center;
+    align-content: center;
+}
+.free .it{ 
+    align-items: center;
+    text-align: center;
+    
+}
+.playlist{
+    display: grid;
+    height: 30vh;
+    
+    width: 100vw;
+    margin: 2px;
+    align-items: center;
+    padding: 30vh;
+}
+.playlist .play {
+    height: 20px;
+    width:200px;
+    margin-bottom: 40vh;
+
+}
+.playlist .play select{
+    border: 0;
+    padding: 20px;
+    color: black;
+    font-size: 3rem;
+    align-items: center;
+
+    
+}
+.ready{
+    width: 100vw;
+    height: 30vh;
+    background-color: blueviolet;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+.ready h1{
+    color: aliceblue;
+    align-content: center;
+    font-size: 4rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.footer
+{
+    height: 50vh;
+    background-color: black;
+    }
+    .footer .two{
+        display:flex;
+        align-items: center;
+        align-content: center;
+        justify-content: space-evenly;
+        
+    }
+.frst li{
+ font-size: 1.2rem;
+ padding: 7px;
+ color:aliceblue;
+ padding: 10px;
+ margin: 10px;
+}
+.frst li a{
+    color: aliceblue;
+}
+.btn:hover{
+    letter-spacing: .2rem;
+}
+.frst .new{
+    font-style: italic;
+    text-decoration-style: double;
+}
